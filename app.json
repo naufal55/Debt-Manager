@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "Debt_Manager",
-    "slug": "Debt_Manager",
+    "name": "Debt Manager",
+    "slug": "idMuqolis",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/DM.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "image": "./assets/splashDM.png",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "updates": {
@@ -22,9 +22,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/DM.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package":"com.idMuqolis.debtManager"
     },
     "web": {
       "favicon": "./assets/favicon.png"
